@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: auto;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1b313b;
+  color: #000;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 45px;
+  background-color: #287fa4;
+  border-style: solid;
+  border-color: #287fa4;
+  padding: 5px 10px 5px 50px;
+}
+
+header nav, ul {
+  padding-top: 5px;
+  margin-right: 20px;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #287fa4;
+}
+
+a {
+  color: #287fa4;
+  text-decoration: none;
+}
+
+.hero {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url('../images/hero-placeholder.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.text-overlay {
+  display: block;
+  margin: 130px 25px 5px;
+  padding: 5px;
+  float: inline-end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
+  border: solid;
+  border-color: #287fa4;
+  background-color: #287fa4;
+}
+
+.work-boxes {
+  display: grid;
+  
+}
+.aside {
+  display: block;
+  align-content: right;
+}
+
+.about-me-aside h2 {
+  display: inline-block;
+  font-size: 40px;
+  color: #287fa4;
+  text-align: right;
+  width: 200px;
+  padding: 20px 0 0 80px;
+  position: absolute;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.about-me-aside p {
+  display: flex;
+  margin: 0 0 0 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-left: solid;
+  border-color: #287fa4;
+  padding: 20px;
+  padding-top: 0px;
+  flex-wrap: wrap;
+  border-width: thick;
+  font-size: 16px;
+  color: #287fa4;
+}
+
+.work-aside h2 {
+  display: flex;
+  font-size: 40px;
+  color: #287fa4;
+  text-align: right;
+  width: 200px;
+  padding: 80px 0 80px 100px;
+  position: relative;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+#contact-me h3 {
+  display: flex;
+  font-size: 40px;
+  color: #287fa4;
+  text-align: right;
+  width: 250px;
+  padding: 200px 50px 0 20px;
+  position: absolute;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+#contact-me section ul {
+  padding: 50px 50px 50px 450px;
+  margin: 200px 20px 0 50px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  border-left: solid;
+  border-color: #287fa4;
+  border-width: thick;
+}
+
+#contact-me section ul li {
+  margin-left: 25px;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #287fa4;
+}
+
+.work-boxes {
+  display: grid;
+  justify-content: space-around;
+}
